@@ -1,0 +1,61 @@
+{
+    "keepSettings": {
+        "type": 2,
+        "amount": 10
+    },
+    "auditFilename": "audit.json",
+    "hashType": "md5",
+    "extension": "",
+    "files": [
+        {
+            "date": 1689064981182,
+            "name": "/opt/BoilerPlate/back-end-boilerplate/logger/development/backend-logger/warn-2023-07-11-14.log",
+            "hash": "a50dbafa3fcbf82cc11f59a374d60ea5"
+        },
+        {
+            "date": 1689068218442,
+            "name": "/opt/BoilerPlate/back-end-boilerplate/logger/development/backend-logger/access-2023-07-11-15.log",
+            "hash": "2dacb77df763e17f7cc63b76bae3a279"
+        },
+        {
+            "date": 1689068218446,
+            "name": "/opt/BoilerPlate/back-end-boilerplate/logger/development/backend-logger/error-2023-07-11-15.log",
+            "hash": "80d130aea482c5523641c186ccbc1a87"
+        },
+        {
+            "date": 1689068218449,
+            "name": "/opt/BoilerPlate/back-end-boilerplate/logger/development/backend-logger/warn-2023-07-11-15.log",
+            "hash": "e1a441f4575634ee57cb823a391b1fb5"
+        },
+        {
+            "date": 1689072609152,
+            "name": "/opt/BoilerPlate/back-end-boilerplate/logger/development/backend-logger/access-2023-07-11-16.log",
+            "hash": "10a42c6690a4650b8327005e8db32d8b"
+        },
+        {
+            "date": 1689072609154,
+            "name": "/opt/BoilerPlate/back-end-boilerplate/logger/development/backend-logger/error-2023-07-11-16.log",
+            "hash": "a8ef91ae5835bdea155984bd349e69e4"
+        },
+        {
+            "date": 1689072609155,
+            "name": "/opt/BoilerPlate/back-end-boilerplate/logger/development/backend-logger/warn-2023-07-11-16.log",
+            "hash": "c1e979b958cbe18162e43ee6f0812767"
+        },
+        {
+            "date": 1689075655539,
+            "name": "/opt/BoilerPlate/back-end-boilerplate/logger/development/backend-logger/access-2023-07-11-17.log",
+            "hash": "707e759b343b3136acba35d7f8ead7d4"
+        },
+        {
+            "date": 1689075655543,
+            "name": "/opt/BoilerPlate/back-end-boilerplate/logger/development/backend-logger/error-2023-07-11-17.log",
+            "hash": "3eae6be836412edeea5e438a23360a0b"
+        },
+        {
+            "date": 1689075655545,
+            "name": "/opt/BoilerPlate/back-end-boilerplate/logger/development/backend-logger/warn-2023-07-11-17.log",
+            "hash": "e3a2814e8b8e3adaa55c0a2b81a0d79e"
+        }
+    ]
+}
