@@ -35,5 +35,10 @@ module.exports = (sequelize, DataTypes) => {
     }
   );
 
+  // erpLocationMasterDtl.associate = (models) => {
+  //   models.erpLocationMasterDtl.hasOne(models.User, {
+  //       foreignKey: "erp_location_id", sourceKey: "location_id"
+  //     });
+  // };
   return Users;
 };

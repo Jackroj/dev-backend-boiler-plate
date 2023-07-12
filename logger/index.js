@@ -63,12 +63,17 @@ class Logger {
     }
 
     warn(...args) {
-      rollbar.warning(...args)
       this.logger.warn(...args);
     }
+
+    error(errorMessage, error) {
+        rollbar.error(error, errorMessage);     
+    }
   
-    error(...args) {
-      this.logger.error(...args);
+  
+    error(errorMessage, error) {
+      this.logger.error(errorMessage);
+      this.logger.error(error);
     }
   }
 

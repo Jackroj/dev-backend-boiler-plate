@@ -10,7 +10,6 @@ const flash = require('express-flash');
 // Initialize passport variables
 require('./config/passport');
 
-const testRoute = require('./routes/testRoute');
 const userRoute = require('./routes/userRoute');
 const authRoute = require('./routes/authRoute');
 
@@ -36,7 +35,6 @@ app.use(passport.initialize());
 app.use(passport.session());
 
 
-app.use('/test', accessLog, testRoute);
 app.use('/user', accessLog, userRoute);
 app.use('/auth', accessLog, authRoute);
 
