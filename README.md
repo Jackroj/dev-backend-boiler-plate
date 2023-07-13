@@ -4,6 +4,17 @@ boiler plate using the express, sequelize, pino, passport js
 
 After cloned the repo using the following steps to setup the boiler-plate
 
+create a new .env file for the basic configuration and add similar to the below example based on your environment
+
+```
+NODE_ENV=development
+ORIGIN_URL=http://localhost:3000  
+SECRET=bezkoder-secret-key
+PORT=3033 
+```
+And do install the packages using the following command.
+
+
 ```
 npm install
 ```
