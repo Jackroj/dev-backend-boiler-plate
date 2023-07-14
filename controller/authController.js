@@ -13,11 +13,12 @@ const signin = async(req, res) => {
           allowInsecureKeySizes: true,
           expiresIn: 86400, // 24 hours
         });
-        res.status(200).send({
+        return res.status(200).send({
           accessToken: token
         });
     } catch (error) {
       logger.error("error occured in signin", error);
+      return res.status(404).send({error: "error occured in signin"});
     }
 }
 
@@ -34,9 +35,10 @@ const register = async(req, res) => {
       //hash password using bcrypt
       const hashPass =await bcrypt.hash(password, 10);
       const response = UsersRepo.add({password: hashPass, ...value});
-        res.send("user registered successfully");
+      return res.status(200).send("user registered successfully");
     } catch (error) {
         logger.error("error occured in register", error);
+      return res.status(404).send({error: error.message});
     }
 };
 
