@@ -1,6 +1,5 @@
 const express = require('express');
 const bodyParser = require('body-parser');
-const config = require('./config');
 const app = express();
 const cors = require('cors');
 
@@ -50,6 +49,6 @@ app.use((req, res, next) => {
 app.use('/user', accessLog, userRoute);
 app.use('/auth', accessLog, authRoute);
 
-app.listen(config.PORT, () => {
-  console.log(`Listening at ${config.PORT}`);
+app.listen(process.env.PORT, () => {
+  console.log(`Listening at ${process.env.PORT}`);
 });
