@@ -5,6 +5,5 @@ const {verifyToken} = require('../middleware/authJwt')
 
 router.get('/getAllUsers',[verifyToken],userCtrl.getAllUsers);
 
-router.post('/addNewUser',[verifyToken], userCtrl.addNewUser);
 
 module.exports = router;

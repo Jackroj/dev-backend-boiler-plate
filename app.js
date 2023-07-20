@@ -8,11 +8,13 @@ require('dotenv').config();
 const passport = require('passport');
 const session = require('express-session');
 const flash = require('express-flash');
+const swagger = require('./config/swagger');
 
 
 app.use(cors({
   origin: process.env.ORIGIN_URL
 }));
+swagger(app);
 
 // Initialize passport variables
 require('./config/passport');
